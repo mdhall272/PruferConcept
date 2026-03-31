@@ -1,0 +1,17 @@
+compute_posterior_batch
+                        Compute posterior weights in batch using C++
+                        backend
+format_prufer           Format a Prufer sequence list as a string
+generate_samples        Generate importance samples from the forest
+                        proposal distribution
+generate_samples_batch
+                        Generate samples in batch using C++ backend
+log_forest_count        Log forest count
+log_forest_count_cpp_wrapper
+                        Compute log forest count using C++ backend
+log_likelihood          Log-likelihood of cluster data given a forest
+                        structure
+log_likelihood_cpp_wrapper
+                        Compute log-likelihood using C++ backend
+posterior               Compute posterior importance weights
+sampling_distribution   Create a sampling distribution specification

@@ -1,0 +1,20 @@
+Package: PruferConcept
+Title: Bayesian Inference on Partially Observed Transmission Forests
+Version: 0.1.0
+Authors@R: person("Matthew", "Hall", role = c("aut", "cre"),
+    email = "matthew.hall@lshtm.ac.uk")
+Author: Matthew Hall [aut, cre]
+Maintainer: Matthew Hall <matthew.hall@lshtm.ac.uk>
+Description: Importance sampling inference for the total size and number of
+    lineage introductions in a samplable infected population, given observed
+    cluster size data. Uses a modified Prufer sequence representation for
+    rooted labelled forests with independence constraints.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: Rcpp, dplyr, purrr, tibble, tidyr
+LinkingTo: Rcpp
+NeedsCompilation: yes
+Packaged: 2026-03-31 14:21:26 UTC; lshmh32
+Built: R 4.5.2; aarch64-apple-darwin20; 2026-03-31 14:21:29 UTC; unix
